@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_manish_patel_go_pipeline_sample_1719641229431-pr-trigger-input-set
+  identifier: Build_manish_patel_go_pipeline_sample_1719641229431prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_manish_patel_go_pipeline_sample_1719641229431
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
